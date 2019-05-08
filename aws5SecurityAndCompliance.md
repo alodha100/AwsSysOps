@@ -63,8 +63,9 @@
             "Resource": "*"
         }
     ]
-}
+  }
   ```
+
 * Two types of policies:
   * **Pre-built policies**: template policies defined by AWS (prefixed by box icon in AWS console). Examples: administrator access (full access to all AWS resources), read only access (e.g. S3 read only: "s3:Get*" & "s3:List*" actions), power user access (admin access but not possible to update users/groups)
   * **Custom policies**: _see next chapter_
